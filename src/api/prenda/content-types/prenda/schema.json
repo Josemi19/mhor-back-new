@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prendas",
+  "info": {
+    "singularName": "prenda",
+    "pluralName": "prendas",
+    "displayName": "Prendas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "precio": {
+      "type": "integer"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "descuento": {
+      "type": "integer"
+    }
+  }
+}
